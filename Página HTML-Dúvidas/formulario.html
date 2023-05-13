@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Lixo Eletronico - Duvidas e sugestões</title>
+		<meta charset="utf-8"/>
+		<!--Comando imagem na aba do site-->
+		<link rel="icon" a href="../banners/LogoReciclagem.png"/>
+		<link rel="stylesheet" href="../style.css">
+		<style type="text/css">
+			label{color:#606060;
+				font-weight: bold;
+			}
+			input:hover,select:hover,textarea:hover,button:hover {border:2px solid #87ceeb;
+			}
+		</style>
+	</head>
+	<body background="../banners/Background.jpg" bgproperties="fixed">
+		<!-- Cabeçalho e Barra de Navegação -->
+		<header>
+            <!-- Barra de Navegação -->
+            <nav class="nav_bar">
+                <ul>
+                    <li><a href="../Página HTML-Home/Home.html">Pagina Inicial</a></li>
+                    <li><a href="../Página HTML-Dissertando Lixo eletrônico/lixo_eletrônico.html">Descarte Correto</a></li>
+                    <li><a href="../Página HTML-Impactos/impactos.html">Impactos Ambientais</a></li>
+                    <li><a href="../Página HTML-Locais de coleta/Locais.html">Pontos de Coleta</a></li>
+                    <li><a href="../Página HTML-Dúvidas/formulario.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- Fim da Barra de Navegação -->
+		</header>
+		<!-- Fim do Cabeçalho e Barra de Navegação -->
+		<section class="conteudo">
+				<div id="Formulario" class="Formulario_Duvidas">
+					<h1><p face="arial" align="center">Tire suas Dúvidas conosco sobre o lixo eletrônico, nos dê sugestões que podem melhorar o site também</p></h1>
+					</br>
+					<p style="text-align: justify; font-family: arial;">Queremos que nossos visitantes tenham todas as suas dúvidas sanadas, não queremos passar informação errada e sempre aperfeiçoar o conteúdo do site para alcançar mais visitantes e assim conseguiremos espalhar nossos ideais para mais e mais pessoas. Para chegar a esse nível desejado de procura nós sabemos que você, visitante, é a pessoa certa para nos ajudar! Por favor envie sua sugestão que pode melhorar o site, reporte <i>BUGS</i>, sugestões de design entre outros, iremos ler os comentarios e fazer as implementações possíveis. Contamos com você!</p>
+					<!-- Começo do Fomulário -->
+					<form name="F_formulario" method="post" action="ArquivoFormulario.cgi">
+						<h2>DUVIDAS E SUGESTÕES</h2>
+						<label>Nome Completo:</label><br>
+						<input type="text" name="F_nome" size="40" maxlength="30"/ style="border: 2px solid #26A033;"><br><br>
+						<label>Endereço de Email:</label><br>
+						<input type="text" name="F_email" size="40" maxlength="40"/ style="border: 2px solid #26A033;"><br><br>
+						<input type="radio" name="F_Sugestão">Sugestão
+						<input type="radio" name="F_Sugestão">Duvida<br><br>
+						<label>Mande sua duvida ou sugestão:</label><br><br>
+						<textarea name="F_mensagem" cols="45" rows="5" style="border: 2px solid #26A033;">Escreva Aqui!</textarea><br><br>
+					
+						<button type="reset" class="Btn_Form"><img src="../banners/incorreto.jpg" width="17" height="17"> Preencher Novamente</button>
+					</form>
+						<a href="../Página HTML-Error/Error.html"><button type="submit" class="Btn_Form"> Enviar Mensagem</button></a>
+				</div>
+		</section>
+		<!-- Fim Fomulário -->
+		<img src="../banners/roda_pé_arte.png" class="tam-rodape">
+		<img src="../banners/roda_pé2.jpg" class="tam-rodape">
+	</body>
+</html>

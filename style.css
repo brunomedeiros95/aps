@@ -1,0 +1,150 @@
+body {
+    height: 100%;
+    padding-top: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Barra de navegação*/
+
+.nav_bar{
+    font-family: arial;
+    position: sticky;
+}
+
+.nav_bar ul{
+    position: sticky;
+    list-style-type: none;
+    margin-top: -7px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #26A033;
+    width: 100%;
+}
+
+.nav_bar ul li{
+    float: left;
+}
+
+.nav_bar ul li a{  
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_bar ul li a:hover{
+  background-color: #72a8ff;
+}
+
+/* Fim da Barra de Navegação*/
+/* Corpo da Pagina Inicial */
+
+.Dissertacao{ 
+    margin: 25%;
+    margin-top: 0px;
+    padding: 15px;
+}
+
+.conteudo{
+    margin: 15%;
+    margin-top: 0px;
+    padding: 15px;
+}
+
+.Texto_Descricao{
+    padding: 0px;
+}
+
+.Texto_Descricao_Site{
+    text-align: justify;
+}
+
+/*Galeria de Matérias, a parte mais chamativa do site*/
+
+.Galeria-Matérias{
+    background-color: white;
+    margin: 5px;
+    border: 2px solid #26A033;
+    border-radius: 7px;
+    float: left;
+    width: 30%;
+    height: 500px;
+}
+
+.Galeria-Matérias:hover{
+    border: 2px solid #72a8ff;
+}
+
+.Galeria-Matérias img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.Galeria-Matérias-desc{
+    padding:10px;
+    text-align: center;
+    font-family: Arial;
+}
+
+
+.Btn_Simples{
+    background-color: #26A033;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 20px;
+    border:2px;
+    border-radius:7px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.Btn_Simples:hover{
+    background-color: #72a8ff;
+}
+
+/* Fim da Galeria*/
+
+.Fomulario_Duvidas{
+    background-color: white;
+}
+
+.Fomulario_Duvidas label{
+    color:#606060;
+    font-weight: bold;
+}
+
+.texto_e_fomumlario{
+    display: block;
+    background-color: white;
+    border: 2px;
+}
+
+.Fomulario_Duvidas input:hover,select:hover,textarea:hover,button:hover{
+    border:2px solid #87ceeb;
+}
+
+.Btn_Form{
+    background-color: #6666ff;
+    color: white;
+    border: 2px;
+    border-radius: 3px;
+    font-size: 12;
+}
+
+.tam-capa{
+    width: 100%;    
+}
+
+.tam-rodape{
+    position: sticky;
+    height: 5%;
+    width: 100%;
+}
+
